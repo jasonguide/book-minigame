@@ -1,0 +1,30 @@
+{
+  "name": "book-minigame",
+  "version": "0.1.0",
+  "description": "《书境》Prototype 0.1 - 整理型知识探索游戏",
+  "author": "",
+  "renderPipeline": "forward",
+  "useBuiltin": false,
+  "platform": "mobile",
+  "designResolution": {
+    "width": 750,
+    "height": 1334,
+    "policy": "FIXED_HEIGHT"
+  },
+  "bundle": {
+    "name": "main",
+    "root": "assets",
+    "compressionType": "none",
+    "isRemoteBundle": false,
+    "remoteBundleAddress": ""
+  },
+  "build": {
+    "wechatgame": {
+      "appid": "your_wechat_appid_here",
+      "buildPath": "build/wechatgame",
+      "packVer": "1.0.0",
+      "useDebug": false,
+      "subpackages": []
+    }
+  }
+}

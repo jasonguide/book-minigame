@@ -1,0 +1,70 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "name": "认识书架",
+      "description": "把书放回正确的类别",
+      "unlockHint": "",
+      "slots": [
+        { "id": "animal", "label": "动物", "icon": "🐾", "sortRule": null },
+        { "id": "universe", "label": "宇宙", "icon": "🌌", "sortRule": null },
+        { "id": "history", "label": "历史", "icon": "📜", "sortRule": null }
+      ],
+      "books": [
+        { "id": "b_001", "title": "《为什么企鹅不会飞》", "slotId": "animal", "knowledgeId": "k_001", "color": "#33AA55", "icon": "🐧" },
+        { "id": "b_002", "title": "《蜜蜂的舞蹈》", "slotId": "animal", "knowledgeId": "k_002", "color": "#33AA55", "icon": "🐝" },
+        { "id": "b_003", "title": "《太阳为什么会发光》", "slotId": "universe", "knowledgeId": "k_003", "color": "#3366CC", "icon": "☀️" },
+        { "id": "b_004", "title": "《月亮的另一边》", "slotId": "universe", "knowledgeId": "k_004", "color": "#3366CC", "icon": "🌙" },
+        { "id": "b_005", "title": "《古罗马的日常生活》", "slotId": "history", "knowledgeId": "k_005", "color": "#CC8833", "icon": "🏛️" },
+        { "id": "b_006", "title": "《秦始皇的书》", "slotId": "history", "knowledgeId": "k_006", "color": "#CC8833", "icon": "📜" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "为什么？",
+      "description": "凭常识判断这些书该放哪里",
+      "unlockHint": "完成 Level 1",
+      "slots": [
+        { "id": "science", "label": "科学", "icon": "🔬", "sortRule": null },
+        { "id": "animal", "label": "动物", "icon": "🐾", "sortRule": null },
+        { "id": "universe", "label": "宇宙", "icon": "🌌", "sortRule": null }
+      ],
+      "books": [
+        { "id": "b_007", "title": "《冰为什么会浮起来》", "slotId": "science", "knowledgeId": "k_007", "color": "#66BBAA", "icon": "🧊" },
+        { "id": "b_008", "title": "《为什么天空是蓝色的》", "slotId": "science", "knowledgeId": "k_008", "color": "#66BBAA", "icon": "🔵" },
+        { "id": "b_009", "title": "《海豚为什么睡觉不会淹死》", "slotId": "animal", "knowledgeId": "k_009", "color": "#33AA55", "icon": "🐬" },
+        { "id": "b_010", "title": "《猫的眼睛为什么在夜里发光》", "slotId": "animal", "knowledgeId": "k_010", "color": "#33AA55", "icon": "🐱" },
+        { "id": "b_011", "title": "《地球为什么是圆的》", "slotId": "universe", "knowledgeId": "k_011", "color": "#3366CC", "icon": "🌍" },
+        { "id": "b_012", "title": "《星星为什么会闪烁》", "slotId": "universe", "knowledgeId": "k_012", "color": "#3366CC", "icon": "⭐" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "整理大师",
+      "description": "先分类，再排序",
+      "unlockHint": "完成 Level 2",
+      "slots": [
+        {
+          "id": "animal", "label": "动物", "icon": "🐾", "sortRule": "从小到大",
+          "sortRuleDetail": "蚂蚁 → 蜜蜂 → 猫 → 狗 → 大象"
+        },
+        {
+          "id": "solar", "label": "太阳系", "icon": "☀️", "sortRule": "从离太阳近到远",
+          "sortRuleDetail": "水星 → 金星 → 地球 → 火星 → 木星"
+        }
+      ],
+      "books": [
+        { "id": "b_013", "title": "《蚂蚁》", "slotId": "animal", "knowledgeId": "k_013", "color": "#33AA55", "icon": "🐜", "sortOrder": 1 },
+        { "id": "b_014", "title": "《蜜蜂》", "slotId": "animal", "knowledgeId": "k_002", "color": "#33AA55", "icon": "🐝", "sortOrder": 2 },
+        { "id": "b_015", "title": "《猫》", "slotId": "animal", "knowledgeId": "k_010", "color": "#33AA55", "icon": "🐱", "sortOrder": 3 },
+        { "id": "b_016", "title": "《狗》", "slotId": "animal", "knowledgeId": "k_014", "color": "#33AA55", "icon": "🐕", "sortOrder": 4 },
+        { "id": "b_017", "title": "《大象》", "slotId": "animal", "knowledgeId": "k_015", "color": "#33AA55", "icon": "🐘", "sortOrder": 5 },
+        { "id": "b_018", "title": "《水星》", "slotId": "solar", "knowledgeId": "k_016", "color": "#CC8844", "icon": "☿", "sortOrder": 1 },
+        { "id": "b_019", "title": "《金星》", "slotId": "solar", "knowledgeId": "k_017", "color": "#EE8833", "icon": "♀", "sortOrder": 2 },
+        { "id": "b_020", "title": "《地球》", "slotId": "solar", "knowledgeId": "k_011", "color": "#3366CC", "icon": "🌍", "sortOrder": 3 },
+        { "id": "b_021", "title": "《火星》", "slotId": "solar", "knowledgeId": "k_018", "color": "#CC5533", "icon": "♂", "sortOrder": 4 },
+        { "id": "b_022", "title": "《木星》", "slotId": "solar", "knowledgeId": "k_019", "color": "#CC8844", "icon": "♃", "sortOrder": 5 }
+      ]
+    }
+  ]
+}
